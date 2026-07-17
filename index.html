@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sumit Jat</title>
-     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body class="bg-gray-700">
+<body class="bg-gray-600">
     <header>
+        <!-- Nav bar complete -->
         <nav>
             <div class="flex items-center justify-between sm:p-4 lg:p-6 sm:px-10 lg:px-16 bg-gray-950 text-white sm:border-b-2  lg:border-b-4 border-white">
                 <div class="sm:text-xl lg:text-3xl font-black">SUMIT_JAT</div>
                 <div class="">
-                    <ul class="flex items-center justify-between sm:text-xl lg:text-2xl sm:space-x-4 lg:space-x-12">
+                  <ul class="flex items-center justify-between sm:text-xl lg:text-2xl sm:space-x-4 lg:space-x-12">
                         <li class="text-gray-400 hover:text-white">Projects</li>
                         <li class="text-gray-400 hover:text-white">Experience</li>
                         <li class="text-gray-400 hover:text-white">Stack</li>
@@ -26,8 +27,34 @@
             </div>
         </nav>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+        <!-- Hero Section -->
+         <div class="h-screen bg-black flex flex-col-reverse lg:flex lg:flex-row lg:items-center p-8">
+            <!-- 1st part -->
+            <div class="lg:w-[50%] text-white p-8 space-y-3">
+                <p class="text-orange-200 text-md font-semibold">hey, i'm a dev who builds...</p>
+                <h1 class="text-6xl font-bold">Engineering <span><i class="text-red-300">scalable</i></span> stuff for modern <span class="underline">enterprises</span> <i class="fa-solid fa-rocket text-red-900"></i></h1>
+                <p class="text-orange-100 mt-8">I turn coffe into high-performance, distributed systems. Specialized in React, Node.js, and pushing the boundaries of what possible on the web.</p>
+                <div class="flex lg:mt-10">
+                    <div class="p-4 px-8 font-semibold bg-white text-black mr-3 rounded-xl hover:text-white hover:bg-black border-2 hover:border-white">View Projects</div>
+                    <div class="p-4 px-8 font-semibold hover:bg-white hover:text-black mr-4 rounded-xl text-white bg-gray-900 border-2 hover:border-white">Read Blog</div>
+                </div>
+            </div>
+            <!-- 2nd part -->
+            <div class="lg:w-[50%] flex items-center justify-around">
+                <div class="w-100 lg:w-80 border-14 rounded-3xl border-gray-400 relative">
+                    <img class="sepia-[1] rounded-3xl" src="./Assets/Sumitjat.jpg" alt="">
+                    <div class="p-2 bg-gray-600 w-12 h-12 flex items-center justify-around rounded-xl absolute top-[-30px] left-[-30px] border-1 border-white"><i class="fa-solid fa-laptop-code text-white text-md"></i></div>
+                    <div class="p-2 bg-gray-600 w-12 h-12 flex items-center justify-around rounded-xl absolute top-[60px] right-[-30px] border-1 border-white"><i class="fa-solid fa-code text-green-500 text-md"></i></div>
+                    <div class="p-2 bg-gray-600 w-12 h-12 flex items-center justify-around rounded-full absolute bottom-[60px] right-[-30px] border-1 border-white"><i class="fa-solid fa-bolt text-white"></i></div>
+                </div>
+            </div>
+         </div>
+
+    </main>
+    <footer class="h-[100px]">
+        <h1>hi i am footer</h1>
+    </footer>
     <script src="https://kit.fontawesome.com/88883dbdea.js" crossorigin="anonymous"></script>
 </body>
 </html>
