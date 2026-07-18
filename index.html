@@ -29,7 +29,7 @@
     </header>
     <main>
         <!-- Hero Section -->
-         <div class="h-screen bg-black flex flex-col-reverse lg:flex lg:flex-row lg:items-center p-8">
+         <div class="lg:min-h-[95vh] bg-black flex flex-col-reverse lg:flex lg:flex-row lg:items-center p-8">
             <!-- 1st part -->
             <div class="lg:w-[50%] text-white p-8 space-y-3">
                 <p class="text-orange-200 text-md font-semibold">hey, i'm a dev who builds...</p>
@@ -41,8 +41,9 @@
                 </div>
             </div>
             <!-- 2nd part -->
-            <div class="lg:w-[50%] flex items-center justify-around">
-                <div class="w-100 lg:w-80 border-14 rounded-3xl border-gray-400 relative">
+            <div class="lg:w-[50%]  flex items-center justify-around">
+                <div class="w-100 lg:w-110
+                 border-14 rounded-3xl border-gray-400 relative">
                     <img class="sepia-[1] rounded-3xl" src="./Assets/Sumitjat.jpg" alt="">
                     <div class="p-2 bg-gray-600 w-12 h-12 flex items-center justify-around rounded-xl absolute top-[-30px] left-[-30px] border-1 border-white"><i class="fa-solid fa-laptop-code text-white text-md"></i></div>
                     <div class="p-2 bg-gray-600 w-12 h-12 flex items-center justify-around rounded-xl absolute top-[60px] right-[-30px] border-1 border-white"><i class="fa-solid fa-code text-green-500 text-md"></i></div>
@@ -50,6 +51,20 @@
                 </div>
             </div>
          </div>
+
+         <!-- marquee section -->
+          <section class="h-[20vh] bg-black border-2 lg:border-white text-center text-white space-y-5">
+            <h3 class="font-bold text-orange-500 text-center my-4">MY REVOLVER OF CHOICE</h3>
+                <marquee class="text-5xl font-semibold my-6 space-x-4 " scrollamount="15" >
+                    <div class="flex space-x-30">
+                        <h1><i class="fa-brands fa-react"></i>REACT</h1>
+                        <h1><i class="fa-brands fa-java"></i>JAVA</h1>
+                        <h1><i class="fa-brands fa-node-js"></i>NODE-JS</h1>
+                        <h1><i class="fa-brands fa-python"></i>PYTHON</h1>
+                        <h1><i class="fa-brands fa-postgresql"></i>POSTGRESQl</h1>
+                    </div>
+                </marquee>
+          </section>
 
     </main>
     <footer class="h-[100px]">
