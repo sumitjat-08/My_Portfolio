@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sumit Jat</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body class="bg-black">
     <header>
@@ -31,7 +32,7 @@
         <!-- Hero Section -->
          <div class="lg:min-h-[95vh] bg-black flex flex-col-reverse lg:flex lg:flex-row lg:items-center p-8">
             <!-- 1st part -->
-            <div class="lg:w-[50%] text-white p-8 space-y-3">
+            <div data-aos="fade-right" class="lg:w-[50%] text-white p-8 space-y-3">
                 <p class="text-orange-200 text-md font-semibold">hey, i'm a dev who builds...</p>
                 <h1 class="text-6xl font-bold">Engineering <span><i class="text-red-300">scalable</i></span> stuff for modern <span class="underline">enterprises</span> <i class="fa-solid fa-rocket text-red-900"></i></h1>
                 <p class="text-orange-100 mt-8">I turn coffe into high-performance, distributed systems. Specialized in React, Node.js, and pushing the boundaries of what possible on the web.</p>
@@ -41,7 +42,7 @@
                 </div>
             </div>
             <!-- 2nd part -->
-            <div class="lg:w-[50%]  flex items-center justify-around">
+            <div data-aos="fade-left" class="lg:w-[50%]  flex items-center justify-around">
                 <div class="w-100 lg:w-110
                  border-14 rounded-3xl border-gray-400 relative">
                     <img class="sepia-[.50] rounded-xl" src="./Assets/Sumitjat.jpg" alt="">
@@ -81,8 +82,8 @@
 
                 <!-- cards -->
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-9 items-center justify-around space-y-4">
-                <!-- cards -->
-                    <div class="min-h-[80vh] bg-gray-800 flex flex-col rounded-4xl space-y-4">
+                <!-- cards1 -->
+                    <div data-aos="zoom-in-up" class="min-h-[80vh] bg-gray-800 flex flex-col rounded-4xl space-y-4">
                         <img class="rounded-t-4xl h-[35vh]" src="./Assets/desktop1.jpg" alt="">
                         <div class="flex flex-col space-y-8 p-8 pb-12">
                             <div class="uppercase flex items-center space-x-5">
@@ -96,7 +97,7 @@
                     </div>
 
                     <!-- card2 -->
-                    <div class="min-h-[80vh] bg-gray-800 flex flex-col rounded-4xl space-y-4">
+                    <div data-aos="zoom-in-up" class="min-h-[80vh] bg-gray-800 flex flex-col rounded-4xl space-y-4">
                         <img class="rounded-t-4xl h-[35vh]" src="./Assets/desktop3.jpg" alt="">
                         <div class="flex flex-col space-y-8 p-8 pb-12">
                             <div class="uppercase flex items-center space-x-5">
@@ -110,7 +111,7 @@
                     </div>
 
                     <!-- card3 -->
-                    <div class="min-h-[80vh] bg-gray-800 flex flex-col rounded-4xl space-y-4">
+                    <div data-aos="zoom-in-up" class="min-h-[80vh] bg-gray-800 flex flex-col rounded-4xl space-y-4">
                         <img class="rounded-t-4xl h-[35vh]" src="./Assets/desktop4.jpg" alt="">
                         <div class="flex flex-col space-y-8 p-8 pb-12">
                             <div class="uppercase flex items-center space-x-5">
@@ -129,28 +130,28 @@
             <div class=" min-h-[60vh] bg-black grid lg:grid-cols-4 gap-4 p-15">
 
                 <!-- div1 -->
-                <div class="bg-gray-800 flex flex-col border-1 border-white p-10 space-y-5 rounded-2xl">
+                <div data-aos="flip-up" class="bg-gray-800 flex flex-col border-1 border-white p-10 space-y-5 rounded-2xl">
                     <div class="text-4xl text-pink-300"><i class="fa-solid fa-gauge-high"></i></div>
                     <h1 class="font-semibold text-white text-4xl">Raw Performance</h1>
                     <p class="text-orange-200 text-lg">Lighthouse 100s aren't a goal, they're the baseline. I Build for speed that users can feel.</p>
                 </div>
 
                 <!-- div2 -->
-                <div class="bg-gray-800 flex flex-col border-1 border-white p-10 space-y-5 rounded-2xl">
+                <div data-aos="flip-up" class="bg-gray-800 flex flex-col border-1 border-white p-10 space-y-5 rounded-2xl">
                     <div class="text-4xl text-pink-300"><i class="fa-solid fa-compass-drafting"></i></div>
                     <h1 class="font-semibold text-white text-4xl">Scalable Core</h1>
                     <p class="text-orange-200 text-lg">Architecture designed for the long game. Clean, decoupled, and ready to expand.</p>
                 </div>
 
                 <!-- div3 -->
-                <div class="bg-gray-800 flex flex-col border-1 border-white p-10 space-y-5 rounded-2xl">
+                <div data-aos="flip-up" class="bg-gray-800 flex flex-col border-1 border-white p-10 space-y-5 rounded-2xl">
                     <div class="text-4xl text-pink-300"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
                     <h1 class="font-semibold text-white text-4xl">Crafted UX</h1>
                     <p class="text-orange-200 text-lg">Interaction design that feels tactile. Microanimations that delight every click.</p>
                 </div>
 
                 <!-- div4 -->
-                <div class="bg-gray-800 flex flex-col border-1 border-white p-10 space-y-5 rounded-2xl">
+                <div data-aos="flip-up" class="bg-gray-800 flex flex-col border-1 border-white p-10 space-y-5 rounded-2xl">
                     <div class="text-4xl text-pink-300"><i class="fa-solid fa-shield-halved"></i></div>
                     <h1 class="font-semibold text-white text-4xl">Ops Ready</h1>
                     <p class="text-orange-200 text-lg">I don't just ship code. I ship observability, CI/CD pipelines, and peace of mind.</p>
@@ -242,7 +243,7 @@
 
             <!-- Review Section -->
              <section class="bg-taupe-900 h-[60vh] lg:h-[80vh] flex items-center justify-around">
-                <div class="relative lg:h-[40vh] w-[80%] lg:w-[55%] bg-taupe-950 text-white border-1 text-shadow-xl border-white w-[50%] p-8 lg:p-15 rounded-4xl">
+                <div data-aos="zoom-in-right" class="relative lg:h-[40vh] w-[80%] lg:w-[55%] bg-taupe-950 text-white border-1 text-shadow-xl border-white w-[50%] p-8 lg:p-15 rounded-4xl">
                     <h4 class="text-xl lg:6xl font-semibold"><i>&quot;He didn't just build a website; he built a system that scaled with our users in ways we hadn't even thought of yet. A technical genius with a designer's eye.&quot;</i></h4>
                     <div class="flex items-center p-8">
                         <div class="bg-purple-600 h-10 w-10 rounded-full"></div>
@@ -259,7 +260,7 @@
               <section class="min-[100vh] text-white ">
                 <div class="bg-gray-700 grid grid-cols-1 md:grid-cols-2 p-4 md:p-15 m-5 lg:m-15 rounded-3xl">
                     <!-- left box flex -->
-                    <div class=" flex flex-col space-y-6 p-3 pl-[20%]">
+                    <div data-aos="fade-right" class=" flex flex-col space-y-6 p-3 pl-[20%]">
                         <h1 class="text-5xl font-bold w-60">Let's build something <span class="text-pink-400">cool</span> together.</h1>
                         <p class="text-orange-200 w-[70%]">I'm currently open to selective collaborations and full-time senior roles in high-growth startups.</p>
                         <div class="flex items-center space-x-2">
@@ -270,9 +271,9 @@
                         </div>
                     </div>
                     <!-- right box flex -->
-                    <div>
-                        <div class="h-[100%] bg-black rounded-3xl">
-                            <form action="./action" class="flex flex-col p-5 lg:p-10">
+                    <div div data-aos="zoom-out">
+                        <div class="h-[100%] bg-black rounded-3xl mx-15">
+                            <form action="./action" class="flex flex-col p-7 lg:p-10">
                                 <label for="name">NAME</label>
                                 <input class="h-10 border-1 border-white rounded-md placeholder:p-4" type="text" id="name" placeholder="Full Name"><br>
                                 <label for="email">EMAIL</label>
@@ -287,7 +288,7 @@
               </section>
     </main>
     <footer class="h-[100px] bg-black text-white border-t-2 border-white">
-        <section class="p-8 lg:p-15">
+        <section class="p-6 lg:p-15">
             <div class="flex items-center justify-between">
                 <div>
                     <h1 class="font-bold text-2xl text-orange-200">SUMIT_JAT</h1>
@@ -304,5 +305,9 @@
         </section>
     </footer>
     <script src="https://kit.fontawesome.com/88883dbdea.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
